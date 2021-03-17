@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Knowledge Quest React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
+Runs the app in the development mode.
+Open [http://localhost:3004](http://localhost:3004) to view it in the browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Build deployed on Heroku
+The application is deployed on heroku and accessed via the base url given below.
+https://know-quest.herokuapp.com/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Codebase is version controled on GitHub at 
+https://github.com/PallaviKadwe/knowledge_quest
 
-### `npm test`
+## Responsive Design
+The application is build on the principles of Adaptive Design and is responsive on the smart phone and tablet devices
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Outline or flow of the application 
+HomePage
+HomePage > Science >  Flash cards about science
+HomePage > Geography > Flash cards about geography
+HomePage > History > Flash cards about history
+HomePage > Add Card > Flash cards to be added by end user
 
-### `npm run build`
+## User Stories 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Landing Page
+1. Links on the landing page -
+    As a user I would expect to see the following controls on landing page : Home, Search, Alcoholic link, non-Alcoholic links 
+2. Header on the landing page -
+    As a user I would expect to see consistent site navigation options on the header - I would expect to access the home page from anywhere within the site
+3. The Header will contain Home link and search input type.
+    As a user I would expect to see the Home link and search input type on the header
+4. Search input - 
+    As a user I would like to be able to find all the drinks containing said ingredient. The search is only on one ingredient at a time.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Search Functionlity
+1. Results of search funtion -
+    As a user I expect to see the results for the ingredient I searched for displayed on the gallery page
 
-### `npm run eject`
+#### Gallery page - Alcoholic drink link
+1. Results of alcoholic drink link click
+    As a user I expect to see the results for the alcoholic drinks displayed on the gallery page
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Gallery Page - Non-alcoholic drink link
+1. Results of non-alcoholic drink link click
+    As a user I expect to see the results for the non-alcoholic drinks displayed on the gallery page
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Gallery Page - Search results
+1. Results of search functionality from the header
+    As a user I expect to see the results for the non-alcoholic drinks displayed on the gallery page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Recipe page
+1. Link click of gallery item - leads to recipe page
+    As a user I expect to see the drink ingredients, their measurements and recipe creation steps on drink recipe page that displays when the user clicks on gallery item

@@ -111,9 +111,7 @@ class App extends Component {
             </Switch>
              
           </main>
-          <div className="footer">
-            <h4>Knowledge Quest </h4> 
-          </div>       
+         
       </div>
     );
   }
