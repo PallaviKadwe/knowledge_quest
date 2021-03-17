@@ -12,7 +12,8 @@ class App extends Component {
   constructor(props){
     super(props)
 
-    this.apiUrl = "http://localhost:3003/api/quizzer/";
+    //this.apiUrl = "http://localhost:3003/api/quizzer/";
+    this.apiUrl = "https://ppkflashcardapi.herokuapp.com/api/quizzer/";
     this.state = {
       allTreatments:[],
       cards_history:[],
@@ -33,14 +34,14 @@ class App extends Component {
   }
 
   get_Science_Cards = async () => {
-    let response = await axios.get("http://localhost:3003/api/quizzer/science");
+    let response = await axios.get(`${this.apiUrl}science`);
     this.setState({
       cards_science: response.data
     });
   }
 
   get_Geography_Cards = async () => {
-    let response = await axios.get("http://localhost:3003/api/quizzer/geography");
+    let response = await axios.get(`${this.apiUrl}geography`);
     this.setState({
       cards_geography: response.data
     });
@@ -48,8 +49,8 @@ class App extends Component {
 
   addQuestion = (event) =>{
     event.preventDefault();
-    console.log("Add question called")
-    const url = 'http://localhost:3003/api/quizzer/flashcard'
+
+    const url = `${this.apiUrl}flashcard`
 
     axios.post(url, {
       question: event.target.question.value,
