@@ -1,0 +1,57 @@
+.box {
+    background-color: dimgrey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:  1px;
+    padding-left:20px;
+    padding-right:10px;
+    align-items: center;
+    
+}
+
+.linkStyle{
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+
+}
+
+.linkStyle div{
+    padding-right:20px;
+}
+
+.divBox{
+    text-align: center;
+    border: 3px solid white;
+    padding-left:20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: white;
+  }
+
+  .divBox{
+    text-align: center;
+    border: 3px solid white;
+    padding-left:20px;
+    border-radius: 20px;
+}

@@ -1,0 +1,15 @@
+
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-content {
+    width : 75%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 30px;
+    font-family: fantasy;
+}

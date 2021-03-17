@@ -1,0 +1,37 @@
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-rows{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.main-content {
+    margin: auto;
+    border-radius: 25px;
+    border: 3px solid gray;
+    padding: 30px;
+    width:25%;
+}
+
+.label-text{
+    font-size: 30px;
+    font-family: fantasy;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-rows{
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        flex-direction: column;
+    }
+}
+
