@@ -1,9 +1,8 @@
-
 .main-title{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .main-content {
@@ -13,3 +12,6 @@
     font-size: 30px;
     font-family: fantasy;
 }
+
+
+

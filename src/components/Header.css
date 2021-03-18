@@ -7,7 +7,7 @@
     padding-left:20px;
     padding-right:10px;
     align-items: center;
-    
+    flex-direction: row;
 }
 
 .linkStyle{
@@ -24,9 +24,7 @@
 .divBox{
     text-align: center;
     border: 3px solid white;
-    padding-left:20px;
-    font-weight: bold;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 a:link {
@@ -38,11 +36,11 @@ a:link {
     text-decoration: none;
     color: white;
   }
-  
   a:hover {
     text-decoration: none;
-    color: white;
+    color: black;
   }
+
   
   a:active {
     text-decoration: none;
@@ -54,4 +52,25 @@ a:link {
     border: 3px solid white;
     padding-left:20px;
     border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .linkStyle{
+      font-size: 20px;
+      font-weight: 400;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .box {
+    background-color: dimgrey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:  1px;
+    padding-left:20px;
+    padding-right:10px;
+    align-items: center;
+    flex-direction: column;
+  }
 }

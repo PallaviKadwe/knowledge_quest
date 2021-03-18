@@ -27,34 +27,21 @@ HomePage > History > Flash cards about history
 HomePage > Add Card > Flash cards to be added by end user
 
 ## User Stories 
-
-
 #### Landing Page
-1. Links on the landing page -
-    As a user I would expect to see the following controls on landing page : Home, Search, Alcoholic link, non-Alcoholic links 
+1. Links on the landing page - The homepage which explains what flashcards are used for.
 2. Header on the landing page -
     As a user I would expect to see consistent site navigation options on the header - I would expect to access the home page from anywhere within the site
-3. The Header will contain Home link and search input type.
-    As a user I would expect to see the Home link and search input type on the header
-4. Search input - 
-    As a user I would like to be able to find all the drinks containing said ingredient. The search is only on one ingredient at a time.
+3. The Header will contain Home link and links to Science, History, Geography, Add Card
 
-#### Search Functionlity
-1. Results of search funtion -
-    As a user I expect to see the results for the ingredient I searched for displayed on the gallery page
+#### Add Card Functionlity
+1. As a end user I expect to be able to click on hte menu option for add card and be directed to a add card page where I can create a new flash card. The option on the flash card creations should allow me ot choose the subject, enter in hte question and answer
 
-#### Gallery page - Alcoholic drink link
-1. Results of alcoholic drink link click
-    As a user I expect to see the results for the alcoholic drinks displayed on the gallery page
+#### Science
+1. As a user I expect to see the flash cards created for the Science subject
 
-#### Gallery Page - Non-alcoholic drink link
-1. Results of non-alcoholic drink link click
-    As a user I expect to see the results for the non-alcoholic drinks displayed on the gallery page
+#### Geography
+1. As a user I expect to see the flash cards created for the Geography subject
 
-#### Gallery Page - Search results
-1. Results of search functionality from the header
-    As a user I expect to see the results for the non-alcoholic drinks displayed on the gallery page
+#### History
+1. As a user I expect to see the flash cards created for the History subject
 
-#### Recipe page
-1. Link click of gallery item - leads to recipe page
-    As a user I expect to see the drink ingredients, their measurements and recipe creation steps on drink recipe page that displays when the user clicks on gallery item
